@@ -133,5 +133,5 @@ Update the file paths in the provided testing script accordingly.
 Run the testing script:
 
 ## License
-This project is licensed under the [MIT License](LICENSE). Published as - Materials 2023, 16(15), 5426; https://doi.org/10.3390/ma16155426
+This project is licensed under the [MIT License](LICENSE). #Publication under review. 
 
