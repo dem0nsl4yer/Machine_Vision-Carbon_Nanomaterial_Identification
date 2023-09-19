@@ -19,8 +19,8 @@ def predict_class(model, images, show = True):
 
     pred = model.predict(img)
     index = np.argmax(pred)
-    #q_list = ['substrate','mdiamond','nanotube','graphene','qcarbon','ndiamond','cvddiamond']
-    q_list = ['acarbon', 'cvddiamond', 'graphene', 'mdiamond', 'ndiamond', 'qcarbon', 'substrate']
+    q_list = ['substrate','mdiamond','nanotube','graphene','qcarbon','ndiamond','cvddiamond']
+    #q_list = ['acarbon', 'cvddiamond', 'graphene', 'mdiamond', 'ndiamond', 'qcarbon', 'substrate']
     q_list.sort()
     pred_value = q_list[index]
     if show:
